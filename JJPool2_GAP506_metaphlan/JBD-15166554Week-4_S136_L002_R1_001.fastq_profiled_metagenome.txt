@@ -1,5 +1,0 @@
-#mpa_vJan21_CHOCOPhlAnSGB_202103
-#/u/home/j/julianne/.conda/envs/humann/bin/metaphlan JBD-15166554Week-4_S136_L002_R1_001.fastq.gz,JBD-15166554Week-4_S136_L002_R2_001.fastq.gz --bowtie2out JBD-15166554Week-4_S136_L002_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o JBD-15166554Week-4_S136_L002_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/julianne/metaphlan_database --index mpa_vJan21_CHOCOPhlAnSGB_202103
-#SampleID	Metaphlan_Analysis
-#clade_name	NCBI_tax_id	relative_abundance	additional_species
-UNCLASSIFIED	-1	100.0	
