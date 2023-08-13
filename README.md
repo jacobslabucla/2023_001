@@ -15,6 +15,10 @@ Jat 24
 Jbd 4
 SJS 0 and 24
 
+## Failed kneaddata 
+- JAT-15233766Week-24_S183_L002_R1_001_kneaddata.log
+- JAT-15233766Week-24_S26_L002_R1_001_kneaddata.log
+
 ## Failed humann 
 - MSG-15080242Week-0
 - NIK-15172872Week-0
