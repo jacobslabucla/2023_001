@@ -26,8 +26,8 @@ SJS 0 and 24
 - CMG-15116298Week-4
 ### Samples that failed kneaddata 
 - JAT-15233766Week-24 (both samples)
- - JAT-15233766Week-24_S183_L002_R1_001_kneaddata.log
- - JAT-15233766Week-24_S26_L002_R1_001_kneaddata.log
+    - JAT-15233766Week-24_S183_L002_R1_001_kneaddata.log
+    - JAT-15233766Week-24_S26_L002_R1_001_kneaddata.log
 - TVA-15069788Week-4
 ### Samples that failed humann
 - MSG-15080242Week-0
