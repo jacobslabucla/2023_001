@@ -26,9 +26,16 @@ SJS 0 and 24
 - RAM-15110680Week-4
 - TVA-15069788Week-4
 
-## Jieping samples that are not on cluster but are on the list: 
+## Jieping Study Details
+### Samples that are not on cluster but are on the list: 
 - CMG-15116298Week-4
 - CKG-15094111Week-4
 - CMF-15097560Week-0
 - CMF-15097560Week-4
 - CMF-15097560Week-24
+- CMG-15116298Week-4
+### Samples that failed kneaddata 
+- JAT-15233766Week-24
+- TVA-15069788Week-4
+### Samples that failed humann
+- MSG-15080242Week-0
