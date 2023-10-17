@@ -1,0 +1,26 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/u/home/j/jpjacobs/.conda/envs/humannandmetaphlan/bin/metaphlan KC21_S2_L004_R1_001.fastq.gz,KC21_S2_L004_R2_001.fastq.gz --bowtie2out KC21_S2_L004_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o KC21_S2_L004_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/jpjacobs/metaphlan_databases --index mpa_vOct22_CHOCOPhlAnSGB_202212 -t rel_ab_w_read_stats
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:1057130
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	100.0	0.23878	1057130
+k__Bacteria|p__Bacteroidetes	2|976	97.11627	0.2319	1040351
+k__Bacteria|p__Actinobacteria	2|201174	2.87601	0.00687	16690
+k__Bacteria|p__Proteobacteria	2|1224	0.00772	2e-05	89
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia	2|976|200643	97.11627	0.2319	1040351
+k__Bacteria|p__Actinobacteria|c__Actinomycetia	2|201174|1760	2.87601	0.00687	16690
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	0.00772	2e-05	89
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	97.11627	0.2319	1040351
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales	2|1224|1236|91347	0.00772	2e-05	89
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	97.11627	0.2319	1040351
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae	2|201174|1760|85007|1653	2.87601	0.00687	16690
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae	2|1224|1236|91347|543	0.00772	2e-05	89
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	97.11627	0.2319	1040351
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium	2|201174|1760|85007|1653|1716	2.87601	0.00687	16690
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia	2|1224|1236|91347|543|561	0.00772	2e-05	89
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_uniformis	2|976|200643|171549|815|816|820	97.11627	0.2319	1040351
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium|s__Corynebacterium_sp_HMSC08D02	2|201174|1760|85007|1653|1716|1581138	2.87601	0.00687	16690
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia|s__Escherichia_coli	2|1224|1236|91347|543|561|562	0.00772	2e-05	89
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_uniformis|t__SGB1836	2|976|200643|171549|815|816|820|	97.11627	-	-
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium|s__Corynebacterium_sp_HMSC08D02|t__SGB17071	2|201174|1760|85007|1653|1716|1581138|	2.87601	-	-
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia|s__Escherichia_coli|t__SGB10068	2|1224|1236|91347|543|561|562|	0.00772	-	-

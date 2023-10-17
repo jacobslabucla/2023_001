@@ -1,0 +1,30 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/u/home/j/jpjacobs/.conda/envs/humannandmetaphlan/bin/metaphlan Strobel-4019-1_S115_L004_R1_001.fastq.gz,Strobel-4019-1_S115_L004_R2_001.fastq.gz --bowtie2out Strobel-4019-1_S115_L004_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o Strobel-4019-1_S115_L004_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/jpjacobs/metaphlan_databases --index mpa_vOct22_CHOCOPhlAnSGB_202212 -t rel_ab_w_read_stats
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:118399
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	100.0	0.02667	118399
+k__Bacteria|p__Actinobacteria	2|201174	78.2225	0.02086	84310
+k__Bacteria|p__Proteobacteria	2|1224	19.56511	0.00522	32164
+k__Bacteria|p__Firmicutes	2|1239	2.21239	0.00059	1925
+k__Bacteria|p__Actinobacteria|c__Actinomycetia	2|201174|1760	78.2225	0.02086	84310
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria	2|1224|28211	19.56511	0.00522	32164
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	1.62418	0.00043	1598
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	0.58821	0.00016	327
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales	2|1224|28211|356	19.56511	0.00522	32164
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	2|1239|91061|1385	1.62418	0.00043	1598
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	0.58821	0.00016	327
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae	2|1224|28211|356|2831100	19.56511	0.00522	32164
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Planococcaceae	2|1239|91061|1385|186818	1.62418	0.00043	1598
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Micrococcales|f__Microbacteriaceae|g__Microbacterium	2|201174|1760|85006|85023|33882	78.2225	0.02086	84310
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae|g__Bosea	2|1224|28211|356|2831100|85413	19.56511	0.00522	32164
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Planococcaceae|g__Sporosarcina	2|1239|91061|1385|186818|1569	1.62418	0.00043	1598
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Peptostreptococcaceae|g__Peptostreptococcus	2|1239|186801|186802|186804|1257	0.58821	0.00016	327
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Micrococcales|f__Microbacteriaceae|g__Microbacterium|s__Microbacterium_oxydans	2|201174|1760|85006|85023|33882|82380	78.2225	0.02086	84310
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae|g__Bosea|s__Bosea_sp_WAO	2|1224|28211|356|2831100|85413|406341	19.56511	0.00522	32164
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Planococcaceae|g__Sporosarcina|s__Sporosarcina_newyorkensis	2|1239|91061|1385|186818|1569|759851	1.62418	0.00043	1598
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Peptostreptococcaceae|g__Peptostreptococcus|s__Peptostreptococcus_canis	2|1239|186801|186802|186804|1257|1159213	0.58821	0.00016	327
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Micrococcales|f__Microbacteriaceae|g__Microbacterium|s__Microbacterium_oxydans|t__SGB16871	2|201174|1760|85006|85023|33882|82380|	78.2225	-	-
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae|g__Bosea|s__Bosea_sp_WAO|t__SGB11414	2|1224|28211|356|2831100|85413|406341|	19.56511	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Planococcaceae|g__Sporosarcina|s__Sporosarcina_newyorkensis|t__SGB7611	2|1239|91061|1385|186818|1569|759851|	1.62418	-	-
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Peptostreptococcaceae|g__Peptostreptococcus|s__Peptostreptococcus_canis|t__SGB77430	2|1239|186801|186802|186804|1257|1159213|	0.58821	-	-

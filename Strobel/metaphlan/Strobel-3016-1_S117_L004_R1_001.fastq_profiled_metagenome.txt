@@ -1,0 +1,18 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/u/home/j/jpjacobs/.conda/envs/humannandmetaphlan/bin/metaphlan Strobel-3016-1_S117_L004_R1_001.fastq.gz,Strobel-3016-1_S117_L004_R2_001.fastq.gz --bowtie2out Strobel-3016-1_S117_L004_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o Strobel-3016-1_S117_L004_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/jpjacobs/metaphlan_databases --index mpa_vOct22_CHOCOPhlAnSGB_202212 -t rel_ab_w_read_stats
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:86287
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	100.0	0.01957	86287
+k__Bacteria|p__Actinobacteria	2|201174	82.67633	0.01618	65389
+k__Bacteria|p__Proteobacteria	2|1224	17.32367	0.00339	20898
+k__Bacteria|p__Actinobacteria|c__Actinomycetia	2|201174|1760	82.67633	0.01618	65389
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria	2|1224|28211	17.32367	0.00339	20898
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales	2|1224|28211|356	17.32367	0.00339	20898
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae	2|1224|28211|356|2831100	17.32367	0.00339	20898
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Micrococcales|f__Microbacteriaceae|g__Microbacterium	2|201174|1760|85006|85023|33882	82.67633	0.01618	65389
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae|g__Bosea	2|1224|28211|356|2831100|85413	17.32367	0.00339	20898
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Micrococcales|f__Microbacteriaceae|g__Microbacterium|s__Microbacterium_oxydans	2|201174|1760|85006|85023|33882|82380	82.67633	0.01618	65389
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae|g__Bosea|s__Bosea_sp_WAO	2|1224|28211|356|2831100|85413|406341	17.32367	0.00339	20898
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Micrococcales|f__Microbacteriaceae|g__Microbacterium|s__Microbacterium_oxydans|t__SGB16871	2|201174|1760|85006|85023|33882|82380|	82.67633	-	-
+k__Bacteria|p__Proteobacteria|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Boseaceae|g__Bosea|s__Bosea_sp_WAO|t__SGB11414	2|1224|28211|356|2831100|85413|406341|	17.32367	-	-

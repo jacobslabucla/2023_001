@@ -1,0 +1,55 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/u/home/j/jpjacobs/.conda/envs/humannandmetaphlan/bin/metaphlan 6021-2_S149_L002_R1_001.fastq.gz,6021-2_S149_L002_R2_001.fastq.gz --bowtie2out 6021-2_S149_L002_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o 6021-2_S149_L002_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/jpjacobs/metaphlan_databases --index mpa_vOct22_CHOCOPhlAnSGB_202212 -t rel_ab_w_read_stats
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:3375238
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	100.0	1.16186	3375238
+k__Bacteria|p__Firmicutes	2|1239	58.27551	0.67708	1725351
+k__Bacteria|p__Actinobacteria	2|201174	26.19449	0.30434	782980
+k__Bacteria|p__Proteobacteria	2|1224	15.53	0.18044	866907
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	57.42381	0.66718	1708737
+k__Bacteria|p__Actinobacteria|c__Actinomycetia	2|201174|1760	26.19449	0.30434	782980
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	15.53	0.18044	866907
+k__Bacteria|p__Firmicutes|c__Tissierellia	2|1239|1737404	0.8517	0.0099	16614
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	2|1239|91061|1385	50.40551	0.58564	1542843
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Propionibacteriales	2|201174|1760|85009	25.69282	0.29851	769129
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales	2|1224|1236|91347	15.12034	0.17568	857188
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	7.0183	0.08154	165894
+k__Bacteria|p__Firmicutes|c__Tissierellia|o__Tissierellales	2|1239|1737404|1737405	0.8517	0.0099	16614
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales	2|1224|1236|135625	0.40967	0.00476	9719
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae	2|1239|91061|1385|90964	50.40551	0.58564	1542843
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae	2|201174|1760|85009|31957	25.69282	0.29851	769129
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae	2|1224|1236|91347|543	15.12034	0.17568	857188
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae	2|1239|91061|186826|1300	6.98658	0.08117	164829
+k__Bacteria|p__Firmicutes|c__Tissierellia|o__Tissierellales|f__Peptoniphilaceae	2|1239|1737404|1737405|1570339	0.8517	0.0099	16614
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae	2|201174|1760|85007|1653	0.50167	0.00583	13851
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae	2|1224|1236|135625|712	0.40967	0.00476	9719
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae	2|1239|91061|186826|81852	0.03172	0.00037	1065
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus	2|1239|91061|1385|90964|1279	50.40551	0.58564	1542843
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae|g__Cutibacterium	2|201174|1760|85009|31957|1912216	25.69282	0.29851	769129
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacter	2|1224|1236|91347|543|547	15.12034	0.17568	857188
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus	2|1239|91061|186826|1300|1301	6.98658	0.08117	164829
+k__Bacteria|p__Firmicutes|c__Tissierellia|o__Tissierellales|f__Peptoniphilaceae|g__Anaerococcus	2|1239|1737404|1737405|1570339|165779	0.8517	0.0099	16614
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium	2|201174|1760|85007|1653|1716	0.50167	0.00583	13851
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus	2|1224|1236|135625|712|724	0.40967	0.00476	9719
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus	2|1239|91061|186826|81852|1350	0.03172	0.00037	1065
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae|g__Cutibacterium|s__Cutibacterium_avidum	2|201174|1760|85009|31957|1912216|33010	25.69282	0.29851	769129
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_aureus	2|1239|91061|1385|90964|1279|1280	25.35229	0.29456	827790
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_epidermidis	2|1239|91061|1385|90964|1279|1282	25.05322	0.29108	715053
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacter|s__Enterobacter_asburiae	2|1224|1236|91347|543|547|61645	15.12034	0.17568	857188
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_parasanguinis	2|1239|91061|186826|1300|1301|1318	5.95926	0.06924	140467
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_salivarius	2|1239|91061|186826|1300|1301|1304	1.02731	0.01194	24362
+k__Bacteria|p__Firmicutes|c__Tissierellia|o__Tissierellales|f__Peptoniphilaceae|g__Anaerococcus|s__Anaerococcus_prevotii	2|1239|1737404|1737405|1570339|165779|33034	0.8517	0.0099	16614
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium|s__Corynebacterium_aurimucosum	2|201174|1760|85007|1653|1716|169292	0.50167	0.00583	13851
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_parainfluenzae	2|1224|1236|135625|712|724|729	0.40967	0.00476	9719
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis	2|1239|91061|186826|81852|1350|1351	0.03172	0.00037	1065
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Propionibacteriales|f__Propionibacteriaceae|g__Cutibacterium|s__Cutibacterium_avidum|t__SGB16953	2|201174|1760|85009|31957|1912216|33010|	25.69282	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_aureus|t__SGB7852	2|1239|91061|1385|90964|1279|1280|	25.35229	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_epidermidis|t__SGB7865	2|1239|91061|1385|90964|1279|1282|	25.05322	-	-
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacter|s__Enterobacter_asburiae|t__SGB10141	2|1224|1236|91347|543|547|61645|	15.12034	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_parasanguinis|t__SGB8071	2|1239|91061|186826|1300|1301|1318|	5.95926	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_salivarius|t__SGB8007_group	2|1239|91061|186826|1300|1301|1304|	1.02731	-	-
+k__Bacteria|p__Firmicutes|c__Tissierellia|o__Tissierellales|f__Peptoniphilaceae|g__Anaerococcus|s__Anaerococcus_prevotii|t__SGB6679	2|1239|1737404|1737405|1570339|165779|33034|	0.8517	-	-
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium|s__Corynebacterium_aurimucosum|t__SGB17102_group	2|201174|1760|85007|1653|1716|169292|	0.50167	-	-
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_parainfluenzae|t__SGB9657	2|1224|1236|135625|712|724|729|	0.40967	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis|t__SGB7962	2|1239|91061|186826|81852|1350|1351|	0.03172	-	-

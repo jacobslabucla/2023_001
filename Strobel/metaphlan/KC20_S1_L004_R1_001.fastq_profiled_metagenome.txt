@@ -1,0 +1,43 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/u/home/j/jpjacobs/.conda/envs/humannandmetaphlan/bin/metaphlan KC20_S1_L004_R1_001.fastq.gz,KC20_S1_L004_R2_001.fastq.gz --bowtie2out KC20_S1_L004_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o KC20_S1_L004_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/jpjacobs/metaphlan_databases --index mpa_vOct22_CHOCOPhlAnSGB_202212 -t rel_ab_w_read_stats
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:7427981
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	100.0	1.49007	7427981
+k__Bacteria|p__Proteobacteria	2|1224	83.22395	1.2401	6724129
+k__Bacteria|p__Firmicutes	2|1239	16.77605	0.24998	703852
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	83.22395	1.2401	6724129
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	11.4979	0.17133	451215
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	5.27815	0.07865	252637
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales	2|1224|1236|91347	83.22395	1.2401	6724129
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	2|1239|91061|1385	6.82066	0.10163	249664
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	5.27815	0.07865	252637
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	4.67724	0.06969	201551
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae	2|1224|1236|91347|543	83.22395	1.2401	6724129
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae	2|1239|91061|1385|90964	6.82066	0.10163	249664
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae	2|1239|91061|186826|81852	4.67724	0.06969	201551
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae	2|1239|186801|186802|31979	4.11837	0.06137	194159
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia	2|1224|1236|91347|543|561	44.59139	0.66444	3240848
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Klebsiella	2|1224|1236|91347|543|570	31.38597	0.46767	2858508
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus	2|1239|91061|1385|90964|1279	6.82066	0.10163	249664
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Phytobacter	2|1224|1236|91347|543|447792	5.21483	0.0777	475942
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus	2|1239|91061|186826|81852|1350	4.67724	0.06969	201551
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae|g__Clostridium	2|1239|186801|186802|31979|1485	4.11837	0.06137	194159
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacter	2|1224|1236|91347|543|547	2.03177	0.03027	148831
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Peptostreptococcaceae|g__Paeniclostridium	2|1239|186801|186802|186804|1849828	1.15977	0.01728	58478
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia|s__Escherichia_coli	2|1224|1236|91347|543|561|562	44.59139	0.66444	3240848
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Klebsiella|s__Klebsiella_michiganensis	2|1224|1236|91347|543|570|1134687	31.38597	0.46767	2858508
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_epidermidis	2|1239|91061|1385|90964|1279|1282	6.82066	0.10163	249664
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Phytobacter|s__Phytobacter_diazotrophicus	2|1224|1236|91347|543|447792|395631	5.21483	0.0777	475942
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis	2|1239|91061|186826|81852|1350|1351	4.67724	0.06969	201551
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae|g__Clostridium|s__Clostridium_perfringens	2|1239|186801|186802|31979|1485|1502	4.11837	0.06137	194159
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacter|s__Enterobacter_hormaechei	2|1224|1236|91347|543|547|158836	2.03177	0.03027	148831
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Peptostreptococcaceae|g__Paeniclostridium|s__Paeniclostridium_sordellii	2|1239|186801|186802|186804|1849828|1505	1.15977	0.01728	58478
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Escherichia|s__Escherichia_coli|t__SGB10068	2|1224|1236|91347|543|561|562|	44.59139	-	-
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Klebsiella|s__Klebsiella_michiganensis|t__SGB10119	2|1224|1236|91347|543|570|1134687|	31.38597	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Staphylococcaceae|g__Staphylococcus|s__Staphylococcus_epidermidis|t__SGB7865	2|1239|91061|1385|90964|1279|1282|	6.82066	-	-
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Phytobacter|s__Phytobacter_diazotrophicus|t__SGB10057	2|1224|1236|91347|543|447792|395631|	5.21483	-	-
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis|t__SGB7962	2|1239|91061|186826|81852|1350|1351|	4.67724	-	-
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae|g__Clostridium|s__Clostridium_perfringens|t__SGB6191	2|1239|186801|186802|31979|1485|1502|	4.11837	-	-
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacter|s__Enterobacter_hormaechei|t__SGB10130	2|1224|1236|91347|543|547|158836|	2.03177	-	-
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Peptostreptococcaceae|g__Paeniclostridium|s__Paeniclostridium_sordellii|t__SGB6146	2|1239|186801|186802|186804|1849828|1505|	1.15977	-	-

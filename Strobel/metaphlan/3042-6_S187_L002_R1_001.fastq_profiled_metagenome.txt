@@ -1,0 +1,28 @@
+#mpa_vOct22_CHOCOPhlAnSGB_202212
+#/u/home/j/jpjacobs/.conda/envs/humannandmetaphlan/bin/metaphlan 3042-6_S187_L002_R1_001.fastq.gz,3042-6_S187_L002_R2_001.fastq.gz --bowtie2out 3042-6_S187_L002_R1_001.fastq_metagenome.bowtie2.bz2 --nproc 20 --input_type fastq -o 3042-6_S187_L002_R1_001.fastq_profiled_metagenome.txt --bowtie2db /u/scratch/j/jpjacobs/metaphlan_databases --index mpa_vOct22_CHOCOPhlAnSGB_202212 -t rel_ab_w_read_stats
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:7671714
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	97.95021	1.35642	7248853
+k__Eukaryota	2759	2.04979	0.02839	422861
+k__Bacteria|p__Proteobacteria	2|1224	97.4453	1.34943	7243625
+k__Eukaryota|p__Ascomycota	2759|4890	2.04979	0.02839	422861
+k__Bacteria|p__Tenericutes	2|544448	0.5049	0.00699	5228
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	97.4453	1.34943	7243625
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes	2759|4890|4891	2.04979	0.02839	422861
+k__Bacteria|p__Tenericutes|c__Mollicutes	2|544448|31969	0.5049	0.00699	5228
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales	2|1224|1236|91347	97.4453	1.34943	7243625
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales	2759|4890|4891|4892	2.04979	0.02839	422861
+k__Bacteria|p__Tenericutes|c__Mollicutes|o__Mycoplasmatales	2|544448|31969|2085	0.5049	0.00699	5228
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae	2|1224|1236|91347|543	97.4453	1.34943	7243625
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Debaryomycetaceae	2759|4890|4891|4892|766764	2.04979	0.02839	422861
+k__Bacteria|p__Tenericutes|c__Mollicutes|o__Mycoplasmatales|f__Mycoplasmataceae	2|544448|31969|2085|2092	0.5049	0.00699	5228
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Klebsiella	2|1224|1236|91347|543|570	97.4453	1.34943	7243625
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Debaryomycetaceae|g__Candida	2759|4890|4891|4892|766764|1535326	2.04979	0.02839	422861
+k__Bacteria|p__Tenericutes|c__Mollicutes|o__Mycoplasmatales|f__Mycoplasmataceae|g__Ureaplasma	2|544448|31969|2085|2092|2129	0.5049	0.00699	5228
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Klebsiella|s__Klebsiella_pneumoniae	2|1224|1236|91347|543|570|573	97.4453	1.34943	7243625
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Debaryomycetaceae|g__Candida|s__Candida_albicans	2759|4890|4891|4892|766764|1535326|5476	2.04979	0.02839	422861
+k__Bacteria|p__Tenericutes|c__Mollicutes|o__Mycoplasmatales|f__Mycoplasmataceae|g__Ureaplasma|s__Ureaplasma_parvum	2|544448|31969|2085|2092|2129|134821	0.5049	0.00699	5228
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Klebsiella|s__Klebsiella_pneumoniae|t__SGB10115	2|1224|1236|91347|543|570|573|	97.4453	-	-
+k__Eukaryota|p__Ascomycota|c__Saccharomycetes|o__Saccharomycetales|f__Debaryomycetaceae|g__Candida|s__Candida_albicans|t__EUK5476	2759|4890|4891|4892|766764|1535326|5476|	2.04979	-	-
+k__Bacteria|p__Tenericutes|c__Mollicutes|o__Mycoplasmatales|f__Mycoplasmataceae|g__Ureaplasma|s__Ureaplasma_parvum|t__SGB5568	2|544448|31969|2085|2092|2129|134821|	0.5049	-	-
